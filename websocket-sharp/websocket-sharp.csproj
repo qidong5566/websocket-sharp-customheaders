@@ -6,7 +6,7 @@
     <AssemblyOriginatorKeyFile>websocket-sharp.snk</AssemblyOriginatorKeyFile>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\websocket-sharp.xml</DocumentationFile>
     <Copyright>sta.blockhead</Copyright>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Company />
     <Authors>sta</Authors>
     <Description>websocket-sharp provides the WebSocket protocol client and server.
@@ -19,13 +19,16 @@ It supports:
 - HTTP Authentication (Basic/Digest)
 - Query String, Origin header and Cookies
 - Connecting through the HTTP Proxy server
-- .NET 3.5 or later (includes compatible)</Description>
+- .NET 3.5 or later (includes compatible)
+-CustomHeaders</Description>
     <PackageLicenseUrl>https://github.com/PingmanTools/websocket-sharp/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/PingmanTools/websocket-sharp/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/PingmanTools/websocket-sharp/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/qidong5566/websocket-sharp-customheaders</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/qidong5566/websocket-sharp-customheaders</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>websocket</PackageTags>
-    <PackageId>WebSocketSharp-netstandard</PackageId>
+    <PackageId>WebSocketSharp-netstandard-customheaders</PackageId>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
   </PropertyGroup>
 
 
